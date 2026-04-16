@@ -16,8 +16,9 @@ def division(a, b):
     return a / b
 
 
+option = ""
 print("===Calculadora Científica Básica===")
-while True:
+while option != "5":
     print("Seleccione la operación:")
     print("1. Suma")
     print("2. Resta")
@@ -25,20 +26,21 @@ while True:
     print("4. División")
     print("5. Salir")
     option = input("Ingrese el número de la operación: ")
-    if option != "5":
-        if option == "1":
-            num1 = float(input("Ingrese el primer número: "))
-            num2 = float(input("Ingrese el segundo número: "))
-            print("===Resultado:", suma(num1, num2))
-        elif option == "2":
-            num1 = float(input("Ingrese el primer número: "))
-            num2 = float(input("Ingrese el segundo número: "))
-            print("===Resultado:", resta(num1, num2))
-        elif option == "3":
-            num1 = float(input("Ingrese el primer número: "))
-            num2 = float(input("Ingrese el segundo número: "))
-            print("===Resultado:", multiplicacion(num1, num2))
-        elif option == "4":
-            num1 = float(input("Ingrese el primer número: "))
-            num2 = float(input("Ingrese el segundo número: "))
-            print("===Resultado:", division(num1, num2))
+    if option == "1":
+        num1 = float(input("Ingrese el primer número: "))
+        num2 = float(input("Ingrese el segundo número: "))
+        print("===Resultado:", suma(num1, num2))
+    elif option == "2":
+        num1 = float(input("Ingrese el primer número: "))
+        num2 = float(input("Ingrese el segundo número: "))
+        print("===Resultado:", resta(num1, num2))
+    elif option == "3":
+        num1 = float(input("Ingrese el primer número: "))
+        num2 = float(input("Ingrese el segundo número: "))
+        print("===Resultado:", multiplicacion(num1, num2))
+    elif option == "4":
+        num1 = float(input("Ingrese el primer número: "))
+        num2 = float(input("Ingrese el segundo número: "))
+        print("===Resultado:", division(num1, num2))
+    elif option == "5":
+        print("Saliendo de la calculadora...")

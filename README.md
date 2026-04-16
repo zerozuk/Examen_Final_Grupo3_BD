@@ -28,3 +28,10 @@ Uso del módulo math para operaciones científicas.
 El programa maneja entradas de tipo flotante (float) para mayor precisión.
 Incluye mensajes de error amigables (división por cero, raíz de número negativo).
 Ideal como proyecto educativo para principiantes en python.
+# Ejecución
+<img width="483" height="204" alt="menu" src="https://github.com/user-attachments/assets/1e2806a8-38b3-478e-bf1d-a12f1c00fb42" />
+<img width="438" height="173" alt="opcion_invalida_menu" src="https://github.com/user-attachments/assets/7e139381-eb33-4a9a-93fe-05350fe6fe44" />
+<img width="414" height="169" alt="error_division_cero" src="https://github.com/user-attachments/assets/d7c8ca79-1c29-4a6d-a986-ce90ff64e258" />
+<img width="586" height="169" alt="error_raiz_negativa" src="https://github.com/user-attachments/assets/a3bd892a-b1ce-4a23-8f1e-4994ade04252" />
+
+
